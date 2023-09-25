@@ -1,0 +1,1707 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Home_container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+
+    }
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+    .Attractive_package_description p {
+       
+        text-align: center;
+    }
+
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 90%;
+        height: 50vh;
+        margin-left: 3rem;
+
+
+    }
+
+
+    .arrow-prev {
+        left: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+
+    .arrow-next {
+        right: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+
+    }
+
+    .summary_tagline_description {
+
+        margin-top: 1.2rem;
+        align-items: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .chitr {
+        width: 65vw;
+        margin-left: 2rem;
+
+    }
+
+
+    .Home_data {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 2rem;
+
+
+
+    }
+
+
+    .Home_data h1 {
+        font-size: 7.6vw;
+    }
+
+
+    .Home_data p {
+        font-size: 2.3vw;
+    }
+
+
+    .boy {
+        margin-top: 3rem;
+    }
+
+    .Benefits_option {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .Benefits_tagline h1 {
+        font-size: 4.5vw;
+    }
+
+    .nav {
+        height: 5rem;
+    }
+
+    .Benefits_option h3 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .Benefits_option p {
+        margin-top: 1rem;
+        font-size: 1.06rem;
+
+
+
+    }
+
+    .Attractive_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+    }
+
+    .Attractive_data h1 {
+        font-size: 2.3rem;
+    }
+
+    .Attractive_description {
+        margin-top: 1rem;
+    }
+
+
+    .Attractive_card_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem
+    }
+
+    .Beautiful_wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+        margin-top: 6rem;
+
+
+
+    }
+
+
+    .Beautiful_description {
+
+
+        margin-right: 7.8rem;
+
+
+
+    }
+
+
+    .Beautiful_description h1 {
+
+
+        margin-top: 1rem;
+
+
+
+    }
+
+    .Attractive_package_card_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+        align-items: center;
+    }
+
+    .Attractive_package_card {
+        width: 500px;
+        height: 470px;
+        padding: 30px;
+    }
+
+    .Attractive_chitr {
+        width: 400px;
+    }
+
+
+    .Discount_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Discount_wrapper img {
+        width: 20rem;
+    }
+
+    .Time {
+        display: none;
+    }
+
+
+    footer h1 {
+
+        font-size: 1.8rem;
+
+
+
+
+    }
+
+    .Video_tagline_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+        gap: 3rem;
+
+
+
+    }
+
+    .Video_tagline_wrapper h1 {
+
+        font-size: 10vw;
+    }
+
+    .video_package_wrapper {
+        margin-top: 4rem;
+    }
+
+
+
+
+    .video_search_container {
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+
+    .Discount_offer_card_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+
+
+
+    }
+
+    .Discount_offer_card {
+        width: 450px;
+        height: 430px;
+        background: #FAF8FD;
+        border-radius: 20px;
+        padding: 25px;
+        transition: .4s;
+        margin-left: 5rem;
+
+
+    }
+
+    .Discount_offer_description h1 {
+        font-size: 2.1rem;
+    }
+
+    .Testimonial_card_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+
+    }
+
+
+    .package_summary_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .package_description {
+
+        margin-left: 1.5rem;
+        max-width: 95vw;
+
+    }
+
+
+
+
+
+
+    .contact {
+        margin: 0 auto;
+    }
+
+
+
+    .nav__list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+
+
+
+    }
+
+
+
+
+
+    .pack_img1 {
+        display: none;
+    }
+
+    .Packages_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .pack_img2 {
+        margin: 2rem auto;
+        width: 25rem;
+    }
+
+    .search_container {
+        margin-left: 0rem;
+        width: 33rem;
+        margin: 2rem auto;
+    }
+
+    .original_package_card_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:640px) {
+
+    .Home_data h1 {
+        font-size: 8.5vw;
+
+    }
+
+    .Home_data p {
+        font-size: 2.65vw;
+
+    }
+
+    .package_description {
+
+        max-width: 90vw;
+        margin-left: 0rem;
+
+
+    }
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+    .contact {
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+        width: 37.5rem;
+
+
+
+    }
+
+    .summary_tagline_description {
+
+        align-items: center;
+
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0rem;
+
+
+
+
+    }
+
+
+
+
+
+
+    .arrow-prev {
+        left: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+
+    .arrow-next {
+        right: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+
+
+
+
+
+
+
+    .package_description h2 {
+
+        font-size: 4vw;
+    }
+
+
+    .package_description p {
+
+        font-size: 3vw;
+    }
+
+
+
+
+    .Packages_description h3 {
+        font-size: 4vw;
+    }
+
+    .Packages_description h1 {
+        font-size: 10vw;
+    }
+
+    .Packages_description p br {
+        display: none;
+    }
+
+    .Packages_description p {
+        font-size: 2.9vw;
+    }
+
+
+
+
+
+    .Home_container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0rem;
+        margin-top: 7rem;
+
+
+    }
+
+    .chitr {
+        width: 70vw;
+        margin-left: 3.5rem;
+
+    }
+
+
+    .Attractive_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .Attractive_description p {
+        font-size: 2.8vw;
+    }
+
+
+    .Beautiful_description {
+
+
+        margin-right: 2.5rem;
+
+
+
+    }
+
+    .Beautiful_description p {
+        font-size: 3vw;
+    }
+
+    .Attractive_package_description h1 {
+        font-size: 6.5vw;
+       
+    }
+
+
+    .Attractive_package_description p {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+
+    
+
+    .Attractive_package_card {
+
+        width: 400px;
+        height: 470px;
+        padding: 40px;
+    }
+
+    .Discount_wrapper_description h1 {
+
+        font-size: 6vw;
+
+
+    }
+
+    .Discount_wrapper_description h3 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    .Discount_wrapper_description p {
+
+        font-size: 3vw;
+
+
+    }
+
+    .Discount_offer_description h1 {
+        font-size: 4.8vw;
+    }
+
+
+    .Discount_offer_description {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .offer {
+        margin-top: 0.7rem;
+    }
+
+
+    .Discount_offer_card {
+        width: 400px;
+        height: 430px;
+
+        margin-left: 4rem;
+
+
+    }
+
+    .Testimonial_wrapper h1 {
+        font-size: 10vw;
+    }
+
+
+    footer {
+        background: #000;
+        margin-top: 10rem;
+        height: 37rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    footer h1 {
+
+        font-size: 4vw;
+
+
+
+
+
+
+    }
+
+    .Footer_img {
+        margin-top: -1rem;
+        width: 25rem;
+    }
+
+
+
+
+    .Footer_description_mini p {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 2.1vw;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 475px) {
+
+    .Home_data br {
+        display: none;
+    }
+
+
+    .Home_data p br {
+        display: none;
+    }
+
+    .Home_data h1 {
+        font-size: 8vw;
+    }
+
+    .contact {
+        margin: 0 auto;
+    }
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+
+    .Home_data p {
+        font-size: 3vw;
+    }
+
+    .Beautiful_description {
+        margin-right: 0rem;
+        margin-left: 2rem;
+    }
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+        width: 25.9rem;
+
+
+
+    }
+
+    .summary_tagline_description {
+
+        align-items: center;
+
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0rem;
+
+
+
+
+    }
+
+
+
+    .arrow-prev {
+        left: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+
+    .arrow-next {
+        right: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+
+
+
+
+
+
+    .Beautiful_description br {
+        display: none;
+
+    }
+
+
+
+    .Beautiful_description p {
+        font-size: 4vw;
+
+
+
+    }
+
+
+    .package_description {
+
+        max-width: 90vw;
+        margin-left: 1rem;
+        margin-top: 1rem;
+
+
+
+    }
+
+
+    .summary_tagline_description h1 {
+
+        font-size: 4.5vw;
+    }
+
+    .summary_tagline_description p {
+
+        font-size: 5vw;
+    }
+
+    .summary_tagline_description {
+
+        margin-top: 2rem;
+
+    }
+
+
+
+
+
+    .package_description h2 {
+
+        font-size: 4vw;
+    }
+
+
+    .package_description p {
+
+        font-size: 3.5vw;
+    }
+
+    .Details li {
+
+        font-size: 3.5vw;
+    }
+
+    .Beautiful_description h1 {
+        font-size: 6vw;
+        line-height: 2.2rem;
+    }
+
+    .Beautiful_description p {
+        font-size: 3.4vw;
+
+    }
+
+    .Attractive_data h1 br {
+
+        display: none;
+
+
+    }
+
+    .Attractive_data h1 {
+        font-size: 7vw;
+    }
+
+    .Attractive_description p br {
+
+        display: none;
+    }
+
+    .Attractive_description p {
+        font-size: 2.8vw;
+    }
+
+
+
+    .search_container {
+        margin-left: 0rem;
+        width: 22rem;
+        margin: 2rem auto;
+    }
+
+
+    .Attractive_package_card {
+        width: 350px;
+        height: 450px;
+        padding: 30px;
+    }
+
+
+    .pack_img2 {
+        width: 70vw;
+    }
+
+    .boy {
+
+        margin-left: 4rem;
+    }
+
+
+    .Discount_offer_card {
+        width: 350px;
+        height: 430px;
+
+        margin-left: 3rem;
+
+
+    }
+
+    .Testimonial_card {
+        width: 300px;
+        height: 300px;
+        background: #FFF;
+        overflow: visible;
+        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+        align-items: center;
+
+    }
+
+    .Testimonial_card_wrapper {
+        margin-left: -1.1rem;
+    }
+
+
+    .Footer_description_mini {
+        display: flex;
+        gap: 0.5rem;
+
+    }
+
+
+
+    .Footer_description_mini p {
+
+        font-size: .5rem
+    }
+
+    .Footer_description_mini span {
+
+        font-size: 1rem;
+
+    }
+
+
+    .Footer_card {
+        display: flex;
+        height: 70px;
+        width: 390px;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .Benefits_option p {
+
+        font-size: 3.5vw;
+    }
+
+    .Benefits_option h3 {
+
+        font-size: 7vw;
+    }
+
+    .Benefits_option {
+        display: flex;
+        gap: 5rem;
+        text-align: center;
+        margin: 0rem auto;
+        padding: 5rem;
+
+
+    }
+
+
+
+    .Footer_card {
+        display: flex;
+        height: 70px;
+        width: 350px;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .Footer_card .social-link1,
+    .Footer_card .social-link2,
+    .Footer_card .social-link3,
+    .Footer_card .social-link4,
+    .Footer_card .social-link5 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        color: whitesmoke;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.25s;
+        border-radius: 50px;
+    }
+
+
+    .Footer_card svg {
+        position: absolute;
+        display: flex;
+        width: 55%;
+        height: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        opacity: 1;
+        transition: opacity 0.25s;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .video_search_container {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+
+
+
+    .Discount_offer_card {
+        width: 310px;
+        height: 430px;
+        margin-left: 3rem;
+
+
+    }
+
+
+    .search_container {
+        margin-left: 0rem;
+        width: 20rem;
+        margin: 2rem auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+
+    .Home_data {
+        margin-left: 2rem;
+    }
+
+    .Attractive_wrapper {
+        margin-left: 1.3rem;
+    }
+
+
+    .contact {
+        margin: 0 auto;
+    }
+
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+
+    .nav__list li {
+
+        font-size: 6.5vw;
+    }
+
+
+    .Beautiful_description {
+
+        margin-left: 1.3rem;
+    }
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+        width: 23.4rem;
+
+
+
+    }
+
+    .summary_tagline_description {
+
+        align-items: center;
+
+    }
+
+    .summary_tagline_description h1 {
+
+        font-size: 4vw;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0rem;
+
+
+
+
+    }
+
+
+
+
+
+
+    .Attractive_package_card {
+
+
+        width: 320px;
+        height: 470px;
+        padding: 25px;
+
+
+    }
+
+
+
+
+    .package_description {
+
+        max-width: 85vw;
+        margin-left: 0rem;
+
+
+
+    }
+
+
+
+
+    .package_description h2 {
+
+        font-size: 5vw;
+    }
+
+
+    .package_description p {
+
+        font-size: 4vw;
+    }
+
+    .Attractive_package_card_wrapper {
+
+        margin-top: 5rem;
+
+    }
+
+    .Footer_card {
+        display: flex;
+        height: 70px;
+        width: 350px;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .Footer_card .social-link1,
+    .Footer_card .social-link2,
+    .Footer_card .social-link3,
+    .Footer_card .social-link4,
+    .Footer_card .social-link5 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        color: whitesmoke;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.25s;
+        border-radius: 50px;
+    }
+
+
+    .Footer_card svg {
+        position: absolute;
+        display: flex;
+        width: 55%;
+        height: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        opacity: 1;
+        transition: opacity 0.25s;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .video_search_container {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .Discount_offer_card {
+
+        width: 280px;
+        height: 430px;
+        background: #FAF8FD;
+        border-radius: 20px;
+        padding: 25px;
+        transition: .4s;
+        margin-left: 2.5rem;
+
+
+    }
+
+    .heading {
+
+        position: relative;
+        top: 2rem;
+    }
+
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+        width: 20rem;
+
+
+
+    }
+
+    .summary_tagline_description {
+
+        align-items: center;
+
+    }
+
+
+    .contact {
+        margin: 0 auto;
+    }
+
+
+    .summary_tagline_description h1 {
+
+        font-size: 6.5vw;
+    }
+
+    .summary_tagline_description p {
+
+        font-size: 5.5vw;
+        margin-top: 1rem;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        height: 40vh;
+        margin-left: 0rem;
+
+
+
+
+    }
+
+
+
+    .Testimonial_card {
+        width: 250px;
+        height: 340px;
+        background: #FFF;
+        overflow: visible;
+        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+        align-items: center;
+
+    }
+
+
+
+    .Footer_card {
+        display: flex;
+        height: 70px;
+        width: 320px;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .Footer_card .social-link1,
+    .Footer_card .social-link2,
+    .Footer_card .social-link3,
+    .Footer_card .social-link4,
+    .Footer_card .social-link5 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        color: whitesmoke;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.25s;
+        border-radius: 50px;
+    }
+
+
+    .Footer_card svg {
+        position: absolute;
+        display: flex;
+        width: 55%;
+        height: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        opacity: 1;
+        transition: opacity 0.25s;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+
+    .nav__list li {
+
+        font-size: 7vw;
+    }
+
+    .video_search_container {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (800px <=width <=1024px) {
+
+
+
+    .Home_data h1 {
+
+        font-size: 5vw;
+
+    }
+
+    .Home_data p br {
+
+        display: none;
+
+    }
+
+    .package_summary
+    {
+     margin-left:0rem;
+     
+    }
+
+
+    .Home_data p {
+
+        font-size: 1.8vw;
+
+    }
+
+    .chitr {
+
+        width: 80vw;
+    }
+
+
+    .Home_container {
+
+
+        margin-top: 5rem;
+    }
+
+
+    .Benefits_tagline h1 {
+
+        font-size: 4.5vw;
+    }
+
+    .Benefits_option {
+
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+        gap: 5rem;
+
+
+    }
+
+    .Benefits_option h3 {
+        font-size: 5vw;
+    }
+
+    .Benefits_option p {
+        font-size: 2.5vw;
+    }
+
+
+
+    .Attractive_card_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 7rem;
+    }
+
+    .Attractive_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+
+    .Attractive_data h1 {
+        font-size: 6vw;
+        line-height: 4rem;
+    }
+
+    .Attractive_description h3 {
+
+        font-size: 3.5vw;
+    }
+
+    .Attractive_description p {
+
+        font-size: 3vw;
+        line-height: 2.4rem;
+    }
+
+    .Attractive_data_description p {
+
+        font-size: 2.5vw;
+    }
+
+
+
+    .Beautiful_description h1 br {
+
+        display: none;
+    }
+
+    .kar {
+
+        font-size: 2.2vw;
+    }
+
+    .Beautiful_wrapper {
+
+        display: flex;
+        gap: 4rem;
+
+    }
+
+    .Attractive_package_card_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .Attractive_package_card {
+        width: 500px;
+        height: 550px;
+        padding: 40px;
+    }
+
+
+    .Attractive_chitr {
+        width: 400px;
+    }
+
+    .Attractive_package_card_subsection h1 {
+
+        font-size: 4vw;
+    }
+
+
+    .Attractive_package_card_subsection p {
+
+        font-size: 3vw;
+    }
+
+    .Attractive_package_card_description_subsection p {
+
+        font-size: 3vw;
+    }
+
+    .Attractive_package_card_description_subsection img {
+
+        width: 3vw;
+    }
+
+    .Attractive_package_card_description h3 {
+
+        font-size: 3vw;
+    }
+
+    .Time {
+
+        display: none;
+    }
+
+    .Discount_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boy {
+
+        margin-top: 5rem;
+        height: 75vw;
+
+    }
+
+    .Discount_offer_description h1 {
+        text-align: center;
+        font-size: 4.5vw;
+
+    }
+
+    .Discount_offer_card_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .Testimonial_card_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+
+    .pack_img1 {
+
+        display: none;
+
+    }
+
+    .pack_img2 {
+
+        margin-top: 4rem;
+        width: 70vw;
+
+    }
+
+    .search_container {
+        margin: 0 auto;
+        margin-top: 4rem;
+        width: 70vw;
+    }
+
+
+    .Packages_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .Video_tagline_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        margin: 8rem auto;
+
+
+
+
+
+    }
+
+    .Video_tagline_wrapper h1 {
+
+        font-size: 9vw;
+
+
+
+    }
+
+    .video_search_container {
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+    }
+
+    .original_package_card_wrapper {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video_package_card {
+        width: 500px;
+        height: 470px;
+        padding: 30px;
+    }
+
+    .package_summary_wrapper 
+    {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .summary_tagline {
+        margin-top: 0rem;
+        width:100vw;
+
+
+
+    }
+
+    .summary_tagline_description {
+
+        align-items: center;
+
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        top: 0rem;
+        width: 100%;
+        height: 50vh;
+        margin-left: 0rem;
+
+
+
+
+    }
+
+
+
+    .package_description {
+
+        max-width:90vw;
+        margin-left: 0rem;
+
+
+
+    }
+
+    .nav__menu{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 3.5rem 1.5rem 0;
+        background: rgba(255,255,255,.3);
+        backdrop-filter: blur(10px);
+        transition: .5s;
+      }
+    
+
+      .show{
+        right: 0;
+      }
+
+      .nav__list li
+      {
+        text-align: center;
+        font-size:5vw;
+      }
+
+      .nav__list 
+      {
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .Attractive_package_description p {
+       
+        text-align: center;
+    }
+      
+
+
+
+}
